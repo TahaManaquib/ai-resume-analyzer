@@ -27,13 +27,13 @@ export default function Home() {
     <main className="bg-[url('/images/bg-main.svg')] bg-cover">
       <Navbar />
       <section className="main-section">
-        <div className="page-heading py-16">
+        <div className="page-heading">
           <h1>Track your Applications & Resume Ratings</h1>
           <h2>Review your submissions and check AI-powered feedback.</h2>
         </div>
 
         {resumes.length > 0 && (
-          <div className="resumes-section">
+          <div className="resumes-section mt-8">
             {resumes.map((resume: Resume) => (
               <ResumeCard key={resume.id} resume={resume} />
             ))}

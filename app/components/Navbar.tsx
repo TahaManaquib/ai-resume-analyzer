@@ -7,7 +7,10 @@ const Navbar = () => {
       <Link to="/">
         <p className="text-2xl font-bold text-gradient uppercase">resumind</p>
       </Link>
-      <Link to="/upload" className="uppercase primary-button w-fit">
+      <Link
+        to="/upload"
+        className="uppercase primary-button w-fit hover:opacity-75 transition-all"
+      >
         upload resume
       </Link>
     </nav>

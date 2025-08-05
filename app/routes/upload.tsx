@@ -107,7 +107,7 @@ const Upload = () => {
     <main className="bg-[url('/images/bg-main.svg')] bg-cover">
       <Navbar />
       <section className="main-section">
-        <div className="page-heading py-16">
+        <div className="page-heading">
           <h1>Smart feedback for your dream job</h1>
           {isProcessing ? (
             <>
