@@ -120,7 +120,8 @@ const Upload = () => {
               <h2>{statusText}</h2>
               <img
                 src="/images/resume-scan.gif"
-                className="w-full"
+                // className="w-2/3 -mt-36"
+                className="w-1/2 -mt-10"
                 alt="resume-scan"
               />
             </>
